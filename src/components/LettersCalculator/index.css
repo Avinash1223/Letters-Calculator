@@ -1,0 +1,82 @@
+/* Write your code here. */
+* {
+  margin: 0px;
+}
+
+.bgContainer {
+  background-image: linear-gradient(to left, #93f9b9, #1d976c);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.CalculatorContainer {
+  width: 30%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Heading {
+  color: #ffffff;
+  font-size: 28px;
+}
+
+.inputContainer {
+  background-color: transparent;
+  border-color: #ffffff;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.label {
+  color: #ffffff;
+}
+.inputContainer {
+  height: 4vh;
+  width: 20vw;
+  outline: none;
+}
+
+.lettersCounter {
+  padding: 12px;
+  height: 6vh;
+  width: 10vw;
+  background-color: #ffffff;
+  border-radius: 8px;
+  color: #1d976c;
+  font-weight: 900;
+  font-family: 'roboto';
+}
+
+.counter {
+  text-align: center;
+}
+
+.logo {
+  height: 350px;
+  width: 350px;
+}
+
+@media screen and (min-width: 768px) {
+  .bgContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ImgContainer {
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .CalculatorContainer {
+    order: 2;
+  }
+}
